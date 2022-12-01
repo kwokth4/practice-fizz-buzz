@@ -7,7 +7,7 @@ public class FizzBuzz {
     public static final String WHIZZ = "Whizz";
 
     public String countOff(int order) {
-        if(order%3!=0 || order%5!=0 || order%7!=0) {
+        if(order%3==0 || order%5==0 || order%7==0) {
             String result="";
             if (order % 3 == 0) {
                 result += FIZZ;
