@@ -20,5 +20,11 @@ public class FizzBuzzTest {
         String actual = fizzBuzz.countOff(3);
         assertEquals("Fizz",actual);
     }
+    @Test
+    void should_say_Buzz_when_count_off_given_multiple_of_5(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String actual = fizzBuzz.countOff(5);
+        assertEquals("Buzz",actual);
+    }
 
 }
